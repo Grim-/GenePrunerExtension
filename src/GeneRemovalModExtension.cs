@@ -12,6 +12,11 @@ namespace LichGenePatch
         public GeneDef keyGene;
         public List<GeneDef> genesToRemove;
 
+        public GeneRemovalModExtension()
+        {
+
+        }
+
         public bool IsGeneDisallowed(GeneDef Gene)
         {
             return genesToRemove.Contains(Gene);
