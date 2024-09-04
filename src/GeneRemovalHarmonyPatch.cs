@@ -8,7 +8,7 @@ namespace LichGenePatch
     {
         static GeneRemovalHarmonyPatch()
         {
-            var harmony = new Harmony("com.yourname.generemoval");
+            var harmony = new Harmony("com.aotrscommander.generemoval");
             harmony.PatchAll();
         }
     }
